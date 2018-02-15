@@ -1,0 +1,366 @@
+@import ulr('https://fonts.googleapis.com/css?family=Raleway');
+@import ulr('https://fonts.googleapis.com/css?family=Oswald');
+
+
+html,body{
+padding:0;
+margin:0;
+}
+
+.btn{
+  padding:10px 20px;
+  border-radius:5px;
+  font-family:"Oswald",sans-serif;
+  color:white;
+  font-size:135%;
+  text-decoration:none;
+  font-weight: 700;
+  background-color:#d33d5c;
+}
+.btn:hover{
+color:white;
+border:solid white 3px;
+}
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  box-sizing: border-box;
+    background:  #14445F  ;
+    box-shadow:0px 0px 10px black;
+    z-index: 10;
+  }
+nav .navigacija{
+
+  overflow: hidden;
+
+float:right;
+
+max-width:auto;
+  height:auto;
+}
+.meni-item{
+  display:inline-block;
+  padding:5px 15px;
+  color:white;
+  text-decoration:none;
+  font-family:"Roboto",sans-serif;
+  font-size:20px;
+  font-weight:bold;
+
+  transition: background-color 1s;
+  box-sizing: border-box;
+
+}
+.meni-item:hover{
+  text-decoration:none;
+background-color:#11384E;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+
+.container{
+  width:70%;
+margin:0 auto;
+  Text-align:center;
+
+  height:100%;
+}
+.container h1{
+ font-family:"Roboto",sans-serif;
+  font-size:40px;
+  font-weight: bold;
+  margin-top:0px;
+
+}
+.footer{
+color:#053a5c;
+  height:150px;
+  font-family:"Roboto",sans-serif;
+}
+.container-footer{
+  width:70%;
+margin:0 auto;
+}
+.kolona-footer ul{
+  list-style: none;
+  padding:0;
+
+
+}
+.kolona-footer ul li a{
+  text-decoration:none;
+  color:#053a5c;
+}
+.kolona-footer{
+  float:left;
+  width:33%;
+  overflow: hidden;
+
+}
+.pozicija-footer{
+  margin:auto;
+  width:150px;
+}
+.napravio{
+  text-align:center;
+  clear:both;
+  padding:10px;
+}
+.red{
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+  flex-wrap:wrap;
+}
+.kolona {
+  width:22%;
+  padding:5px;
+  text-align:center;
+  overflow:hidden;
+  color:#14445F;
+}
+.logo a{
+  font-size:160%;
+  font-weight:bold;
+    font-family:'Quattrocento Sans', sans-serif;
+    text-decoration: none;
+    color:white;
+}
+.logo{
+  float:left;
+  width:250px;
+}
+.sirina{
+  width:70%;
+  margin:auto;
+}
+.galerija-pocetna-1{
+  width:250px;
+  background-color:white;
+  box-sizing: border-box;
+  margin:10px;
+  display:inline-block;
+  position:relative;
+  box-shadow: 0px 0px 30px #bbb;
+  z-index: 5;
+}
+
+.druga-sekcija{
+  background:#eee;
+  padding:50px 15px 15px;
+  height:100vh;
+
+}
+.main-75{
+  width:100%;
+  float:left;
+  font-family:"Roboto",sans-serif;
+  font-size:25px;
+  margin-bottom:20px;
+  padding:0 10px;
+  box-sizing: border-box;
+
+
+}
+.aside-25{
+  width:25%;
+  display:none;
+  float:left;
+  background-color:white;
+  padding:5px;
+  box-sizing: border-box;
+  font-family:"Roboto",sans-serif;
+  margin-bottom:10px;
+}
+.aside-ponuda{
+
+  height:100px;
+  margin-bottom:10px;
+}
+#atina{
+  background:url("images/atina_crop.jpg") no-repeat 50% 50%;
+}
+#sidnej{
+  background:url("images/sidnej_crop.jpg") no-repeat 50% 50%;
+}
+#tokio{
+  background:url("images/tokio_crop.jpg") no-repeat 50% 50%;
+}
+.aside-ponuda a{
+  color:white;
+  font-size:40px;
+  font-family:"Roboto",sans-serif;
+  font-weight:bold;
+  text-shadow:0px 0px 5px #000;
+  text-decoration:none;
+}
+form{
+  background-color:#698899;
+  background: linear-gradient(250deg,#053A5C,#1B4B6A,#325D79);
+  padding:15px;
+  height:360px;
+  text-align:left;
+  color:white;
+
+}
+.kolona-forme{
+  width:50%;
+  float:left;
+  padding:5px;
+  box-sizing: border-box;
+}
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=submit]:hover {
+    background-color: #b31d2c;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #d33d5c;
+    color: white;
+    font-size:25px;
+    font-family:"Roboto",sans-serif;
+    font-weight:bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=number] {
+
+  margin: 8px 0;
+height:40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*ZA GALERIJU*/
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+
+
+.slides {
+    padding: 0;
+    width: 100%;
+    height:700px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.slides input { display: none; }
+
+.slide-container { display: block; }
+
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 700px;
+    display: block;
+    position: absolute;
+
+    transform: scale(0);
+
+    transition: all .7s ease-in-out;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav label {
+    width: 200px;
+    height: 100%;
+    display: none;
+    position: absolute;
+
+	  opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+
+    transition: opacity .2s;
+
+    color: #FFF;
+    font-size: 156pt;
+    text-align: center;
+    line-height: 380px;
+    font-family: "Varela Round", sans-serif;
+    background-color: rgba(255, 255, 255, .3);
+    text-shadow: 0px 0px 15px rgb(119, 119, 119);
+}
+
+.slide:hover + .nav label { opacity: 0.5; }
+
+.nav label:hover { opacity: 1; }
+
+.nav .next { right: 0; }
+
+input:checked + .slide-container  .slide {
+    opacity: 1;
+
+    transform: scale(1);
+
+    transition: opacity 1s ease-in-out;
+}
+
+input:checked + .slide-container .nav label { display: block; }
+
+.nav-dots {
+	width: 100%;
+	bottom: 9px;
+	height: 11px;
+	display: block;
+	position: absolute;
+	text-align: center;
+}
+
+.nav-dots .nav-dot {
+	top: -5px;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-dots .nav-dot:hover {
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+input#img-1:checked ~ .nav-dots label#img-dot-1,
+input#img-2:checked ~ .nav-dots label#img-dot-2,
+input#img-3:checked ~ .nav-dots label#img-dot-3,
+input#img-4:checked ~ .nav-dots label#img-dot-4,
+input#img-5:checked ~ .nav-dots label#img-dot-5,
+input#img-6:checked ~ .nav-dots label#img-dot-6 {
+	background: rgba(0, 0, 0, 0.8);
+}

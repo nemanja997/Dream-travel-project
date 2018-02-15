@@ -1,0 +1,104 @@
+@media only screen and (max-width: 1500px) {
+  .container{
+    width:80%;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .responsive-1200{
+    width:90%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .container{
+    width:100%;
+  }
+  .prva-sekcija{
+    padding:2vh;
+  }
+  .kolona {
+    width:100%;
+    padding:5px;
+    text-align:center;
+    overflow:hidden;
+    color:#14445F    ;
+  }
+  .intro .inner{
+  margin-top:10vh;
+  height:60vh;
+  }
+  .galerija-pocetna-1{
+    width:40%;
+  }
+  .sirina{
+    width:100%;
+  }
+  .logo{
+    float:none;
+    width:300px;
+    margin:auto;
+    text-align: center;
+  }
+  nav .navigacija{
+    overflow: hidden;
+width:100%;
+  float:none;
+    height:auto;
+    display:flex;
+    justify-content: space-around;
+  }
+  .meni-item{
+    display:inline-block;
+    padding:3px 10px;
+    color:white;
+    text-decoration:none;
+    font-family:"Roboto",sans-serif;
+    font-size:16px;
+    font-weight:bold;
+  }
+
+
+}
+@media only screen and (max-width: 720px){
+  .kolona-footer{
+    width:50%;
+  }
+  .opis{
+    padding: 0px 4px 4px 4px;
+  }
+  .prva-sekcija{
+    padding:5px 0px 0px;
+  }
+  .container-footer{
+    width:100%;
+  }
+#brzi-linkovi{
+  display:none;
+}
+.content h1{
+  font-family:"Roboto",sans-serif;
+  color:white;
+ text-shadow:0px 0px 40px #000;
+  font-size:3.5em;
+
+  font-weight:200;
+  padding:0px;
+  margin-bottom:15px;
+}
+.content p{
+
+  font-size:120%;
+
+
+
+}
+.meni-item{
+  padding:1%;
+  font-size: 14px;
+}
+.druga-sekcija{
+padding:0px 0px 5px 0px;
+}
+.intro{
+  height:80vh;
+}
+}

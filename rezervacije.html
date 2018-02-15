@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width">
+    <title>Rezervacije</title>
+    <link rel="stylesheet" type="text/css" href="style-rezervacije.css">
+    <link rel="stylesheet" type="text/css" href="style-rezervacije-responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Quattrocento+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+ <nav>
+<div class="sirina responsive-1200">
+  <div class="logo">
+
+    <a href="./index.html">
+      <i class="fa fa-suitcase  " style="color:white;vertical-align: middle;"  aria-hidden="true"></i>
+      Dream travel
+    </a>
+  </div>
+
+    <div class="navigacija">
+      <a href="./index.html" class="meni-item">Početna</a>
+      <a href="./rezervacije.html" class="meni-item">Rezervacija</a>
+      <a href="./galerija.html" class="meni-item">Galerija</a>
+      <a href="./ponuda.html" class="meni-item">Ponuda</a>
+      <a href="./kontakt.html" class="meni-item">Kontakt</a>
+    </div>
+
+  </div>
+  </naV>
+
+
+<section class="druga-sekcija">
+  <div class="container">
+<div class="main-75">
+  <form ><div class="kolona-forme"><div>
+    <label for="fname">Ime:</label>
+    <input type="text" id="ime" name="ime" placeholder="Vase ime..">
+</div>
+    <label for="lname">Prezime:</label>
+    <input type="text" id="prezime" name="orezime" placeholder="Vase prezime..">
+    <div class="separator">
+      <label for="lname">Datum polaska:</label>
+      <div class="separator">
+    <input type="number"  name="datum" style="width:60px" placeholder="dd">-
+      <input type="number"  name="datum" style="width:60px" placeholder="mm">-
+        <input type="number"  name="datum" style="width:60px" placeholder="yy">
+        </div>
+    </div>
+    <div class="separator">
+        <label for="lname">Datum povratka:</label>
+        <div class="separator">
+      <input type="number"  name="datum" style="width:60px" placeholder="dd">-
+        <input type="number"  name="datum" style="width:60px" placeholder="mm">-
+          <input type="number"  name="datum" style="width:60px" placeholder="yy">
+        </div>
+    </div>
+  </div>
+  <div class="kolona-forme">
+
+    <label for="country">Destinacija:</label>
+    <select id="country" name="country">
+      <option value="milan">Milan</option>
+      <option value="Santorini">Santorini</option>
+      <option value="tokio">Maldivi</option>
+      <option value="tokio">Zakintos</option>
+      <option value="tokio">London</option>
+      <option value="tokio">Rim</option>
+      <option value="tokio">Pariz</option>
+      <option value="tokio">Tokio</option>
+      <option value="tokio">New York</option>
+      <option value="tokio">Prag</option>
+      <option value="tokio">Atina</option>
+    </select>
+<div class="separator">
+  <label for="hotel">Hotel:</label><br>
+    <input type="radio" name="hotel" checked>sa 3*<br>
+<input type="radio" name="hotel">sa 4*<br>
+<input type="radio" name="hotel">sa 5*<br>
+</div>
+
+<div class="separator">
+  <label for="lname">Odrasli</label>
+  <input type="number"  name="broj_osoba" >
+</div>
+
+
+  </div>
+  <input type="submit" value="REZERVIŠI">
+  </form>
+</div>
+<div class="aside-25">
+
+  <h3>Najpopularnije destinacije</h3>
+  <!--<ul>
+    <li><a href="#">Milna</a></li>
+      <li><a href="#">Prag</a></li>
+        <li><a href="#">Santorini</a></li>
+          <li><a href="#">Pariz</a></li>
+        </ul>-->
+        <div id="atina" class="aside-ponuda">
+          <a href="./rezervacije.html">Atina</a>
+        </div>
+        <div id="sidnej" class="aside-ponuda">
+          <a href="./rezervacije.html">Sidnej</a>
+        </div>
+        <div id="tokio" class="aside-ponuda">
+          <a href="./rezervacije.html">Tokio</a>
+        </div>
+
+</div>
+</div>
+
+</section>
+
+
+<footer class="footer">
+  <div class="container-footer">
+    <div id="brzi-linkovi" class="kolona-footer">
+      <div class="pozicija-footer">
+      <h3>Brzi linkovi</h3>
+      <ul>
+        <li><a href="./index.html">Početna</a></li>
+          <li><a href="./galerija.html">Galerija slika</a></li>
+            <li><a href="./kontakt.html">Kontakt podatci</a></li>
+              <li><a href="./rezervacije.html">Forma za rezervacije</a></li>
+              <li><a href="./ponuda.html">Ponuda agencije</a></li>
+      </ul>
+    </div>
+    </div>
+
+    <div class="kolona-footer">
+      <div class="pozicija-footer">
+        <h3>Pravila poslovanja</h3>
+        Nisu moguće potpune refundacije u slučaju otkazivanja aranžmana.Za više informacija pozovite naš call centar:<br>+381-555-333
+      </div>
+      </div>
+
+      <div class="kolona-footer">
+        <div class="pozicija-footer">
+        <h3>Drugi Aranžmani</h3>
+        Za mogućnost rezervisanja aranžmana kojih nema u našoj ponudi obratite se našem call centru:<br>+381-555-333
+    </div>
+    </div>
+    <div class="napravio">
+      Napravio Nemanja Kazic,Januar 2018.
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
