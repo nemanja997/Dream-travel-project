@@ -4,7 +4,7 @@ Websajt  turističke agencije.<br>
 ### Tehnologije: <br>
 -HTML5 <br>
 -CSS3 <br>
--Vanilla JavaScript(ES5)-samo zbog google maps API-ja i zbog validiranja forme
+-Vanilla JavaScript(ES5) *samo zbog Google maps API-ja i zbog validiranja forme
 
  <br>
 
