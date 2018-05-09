@@ -4,7 +4,7 @@ Travel agency website.<br>
 ### Technologies: <br>
 -HTML5 <br>
 -CSS3 <br>
--Vanilla JavaScript(ES5)  (samo zbog Google maps API-ja i zbog validiranja forme)
+-Vanilla JavaScript(ES5)  (Only for Google Maps API and validation of resevation form)
 
  <br>
 
